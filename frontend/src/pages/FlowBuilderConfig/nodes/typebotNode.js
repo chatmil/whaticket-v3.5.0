@@ -13,7 +13,7 @@ import typebotIcon from "../../../assets/typebot-ico.png";
 
 export default memo(({ data, isConnectable, id }) => {
   const storageItems = useNodeStorage();
-  console.log(12, "ticketNode", data);
+  console.log(12, "typebotNode", data);
   return (
     <div
       style={{
